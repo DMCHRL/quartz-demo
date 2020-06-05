@@ -12,8 +12,7 @@ import java.util.List;
 
 /**
  * @author Nero
- * 全局调度任务类
- * 任务放进内存中，未持久化到数据库
+ * 任务表服务层
  */
 @Service
 public class SchedulerService extends ServiceImpl<SchedulerMapper, SchedulerEntity> {
@@ -33,5 +32,4 @@ public class SchedulerService extends ServiceImpl<SchedulerMapper, SchedulerEnti
             });
         }
     }
-
 }
